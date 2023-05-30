@@ -17,19 +17,19 @@ Before performing EDA, it is essential to gather a dataset of Stack Overflow que
 
 Before diving into the Exploratory Data Analysis (EDA), it is crucial to preprocess the text data to clean it and prepare it for analysis. The following typical preprocessing steps can be applied:
 
-    **Removing noise and irrelevant information:** Remove any noise or irrelevant information that may interfere with the analysis. This can include removing special characters, non-alphanumeric characters, or any specific patterns that are not relevant to the text analysis.
+* Removing noise and irrelevant information:** Remove any noise or irrelevant information that may interfere with the analysis. This can include removing special characters, non-alphanumeric characters, or any specific patterns that are not relevant to the text analysis.
 
-    Removing punctuation marks and special characters: Eliminate punctuation marks and special characters from the text data. This step helps to focus on the meaningful content of the text.
+* Removing punctuation marks and special characters: Eliminate punctuation marks and special characters from the text data. This step helps to focus on the meaningful content of the text.
 
-    Removing or handling HTML tags, URLs, or code snippets: If the text data contains HTML tags, URLs, or code snippets, it's essential to remove or handle them appropriately. This can be done using regular expressions or specialized libraries.
+* Removing or handling HTML tags, URLs, or code snippets: If the text data contains HTML tags, URLs, or code snippets, it's essential to remove or handle them appropriately. This can be done using regular expressions or specialized libraries.
 
-    Converting text to lowercase: Convert all the text to lowercase to ensure case insensitivity during analysis. This step helps to treat words with the same spelling but different cases as the same token.
+* Converting text to lowercase: Convert all the text to lowercase to ensure case insensitivity during analysis. This step helps to treat words with the same spelling but different cases as the same token.
 
-    Tokenization: Split the text into individual words or tokens. Tokenization is the process of breaking down a sequence of text into smaller units, such as words or subwords. It helps in further analysis and feature extraction.
+* Tokenization: Split the text into individual words or tokens. Tokenization is the process of breaking down a sequence of text into smaller units, such as words or subwords. It helps in further analysis and feature extraction.
 
-    Removing stop words: Remove common words, known as stop words, that do not carry significant meaning for text analysis. Examples of stop words include "the," "is," "and," or "in." Stop words can be removed using predefined lists or libraries.
+* Removing stop words: Remove common words, known as stop words, that do not carry significant meaning for text analysis. Examples of stop words include "the," "is," "and," or "in." Stop words can be removed using predefined lists or libraries.
 
-    Lemmatization: Reduce words to their base or root form to handle variations. Lemmatization aims to normalize words, such as converting "running," "runs," and "ran" to their common base form "run." This step helps in reducing the dimensionality of the data and treating similar words as the same token.
+* Lemmatization: Reduce words to their base or root form to handle variations. Lemmatization aims to normalize words, such as converting "running," "runs," and "ran" to their common base form "run." This step helps in reducing the dimensionality of the data and treating similar words as the same token.
 
 By applying these preprocessing steps, the raw text data is transformed into a more manageable and consistent format, which facilitates further analysis during the EDA phase.
 
@@ -38,13 +38,13 @@ By applying these preprocessing steps, the raw text data is transformed into a m
 
 During the Exploratory Data Analysis (EDA) phase, the dataset is analyzed and visualized to gain insights into its characteristics and identify patterns or relationships. In the context of this project, the following key aspects can be explored during EDA:
 
-    Distribution of Tags: Determine the frequency and distribution of different tags in the dataset. This analysis helps in understanding the label distribution and potential class imbalance. Visualizations such as bar plots or pie charts can be used to visualize the tag distribution.
+- Distribution of Tags: Determine the frequency and distribution of different tags in the dataset. This analysis helps in understanding the label distribution and potential class imbalance. Visualizations such as bar plots or pie charts can be used to visualize the tag distribution.
 
-    Question Lengths: Analyze the lengths of the questions in terms of word count or character count. Understanding the distribution of question lengths can provide insights into the text length variation, which can be useful for feature extraction and model design. Histograms or box plots can be used to visualize the distribution of question lengths.
+- Question Lengths: Analyze the lengths of the questions in terms of word count or character count. Understanding the distribution of question lengths can provide insights into the text length variation, which can be useful for feature extraction and model design. Histograms or box plots can be used to visualize the distribution of question lengths.
 
-    Tag Relationships: Explore the relationships between different tags. Identify frequently co-occurring tags or tag combinations. This analysis helps in understanding the associations between different topics or categories. Network graphs or co-occurrence matrices can be used to visualize tag relationships.
+- Tag Relationships: Explore the relationships between different tags. Identify frequently co-occurring tags or tag combinations. This analysis helps in understanding the associations between different topics or categories. Network graphs or co-occurrence matrices can be used to visualize tag relationships.
 
-    Tag Correlations: Calculate tag correlations to identify any relationships or dependencies between tags. This analysis can provide insights into the co-occurrence or mutual exclusivity of certain tags. Heatmaps or correlation matrices can be used to visualize the tag correlations.
+- Tag Correlations: Calculate tag correlations to identify any relationships or dependencies between tags. This analysis can provide insights into the co-occurrence or mutual exclusivity of certain tags. Heatmaps or correlation matrices can be used to visualize the tag correlations.
 
 Visualization techniques such as bar plots, histograms, word clouds, tag networks, scatter plots, or heatmaps can be employed to facilitate understanding and communicate the findings effectively. These visualizations can help in identifying patterns, outliers, and potential relationships between tags, which can further inform the feature extraction and modeling process.
 
