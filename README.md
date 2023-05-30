@@ -99,7 +99,7 @@ To deploy the model on an AWS EC2 instance, follow these steps:
 
 The API interface must appear as : 
 
-![API](./image/api.png)
+![API](./img/api.png)
 
 
 
