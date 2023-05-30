@@ -81,6 +81,26 @@ It is worth noting that pretrained models may have different architectures and i
 ### Model Deployment
 
 Once the trained model has been evaluated and deemed satisfactory, it can be deployed to a production environment for practical use. This involves setting up an infrastructure where the model can accept new Stack Overflow questions as input and provide predictions for their tags in real-time.
+Deployment on AWS EC2 Instance
+
+To deploy the model on an AWS EC2 instance, follow these steps:
+
+- Infrastructure Setup: Create an AWS EC2 instance to host your model deployment. Choose the instance type and configuration based on your requirements.
+
+- API Development: Develop an API using a Flask framework. This API will serve as the interface for interacting with the model.
+
+- Deployment Steps: Perform the following actions to deploy the model on the EC2 instance:
+    * Install the necessary dependencies and libraries on the EC2 instance.
+    * Transfer your model files and code to the EC2 instance by cloning the GitHub repository.
+    * Set up the API on the EC2 instance, ensuring it listens for incoming requests on the desired port.
+    * Configure security groups and firewall settings to allow inbound traffic to the EC2 instance on the chosen port.
+
+- Public DNS or IP Address: Once the EC2 instance is up and running, you will be provided with a public DNS or IP address. Users can access the deployed model using the following link: [Automatic categorisation of stack overflow questions](http://ec2-35-180-55-184.eu-west-3.compute.amazonaws.com:5000/) 
+
+The API interface must appear as : 
+
+![API](./image/api.png)
+
 
 
 ## Contributing
