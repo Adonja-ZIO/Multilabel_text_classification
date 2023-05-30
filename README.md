@@ -34,7 +34,7 @@ Before diving into the Exploratory Data Analysis (EDA), it is crucial to preproc
 By applying these preprocessing steps, the raw text data is transformed into a more manageable and consistent format, which facilitates further analysis during the EDA phase.
 
 
-### visualization
+### Visualization
 
 During the Exploratory Data Analysis (EDA) phase, the dataset is analyzed and visualized to gain insights into its characteristics and identify patterns or relationships. In the context of this project, the following key aspects can be explored during EDA:
 
